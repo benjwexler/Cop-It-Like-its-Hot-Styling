@@ -1,12 +1,13 @@
 body {
-    background-color: #05668D
+    background-color: rgb(61, 151, 187)
 }
 
 .navbar {
     
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
     border-bottom: 1px solid rgba(14, 205, 154, 0.315);
+    background: black;
 }
 
 #kicklrLogo {
@@ -43,13 +44,13 @@ body {
     padding: 40px;
     margin: auto;
     margin-top: 150px;
-    border: solid 5px #7C67CB;
+    border: solid 5px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #05668D;
-    background-color: #0ECD99; 
+    color: #0ECD99;
+    background-color: white;
     border-radius: 3%;  
 }
 
@@ -65,5 +66,9 @@ body {
     color: #0ECD99;
     /* THIS CENTERS THE SUBMIT BUTTON */
     margin-left: 25%;
+}
+
+#hamburgerMenu {
+    background: white;
 }
 
