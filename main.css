@@ -1,0 +1,69 @@
+body {
+    background-color: #05668D
+}
+
+.navbar {
+    
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid rgba(14, 205, 154, 0.315);
+}
+
+#kicklrLogo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbarText {
+    color: #0ECD99;
+}
+
+.nav-link {
+    color: #0ECD99 !important; 
+}
+
+#marginRight {
+    float: right;
+}
+
+#navbarNav {
+    padding-right: 20px;
+}
+
+.navbar-toggler {
+    /* WITHOUT !important THE BORDER COLORS WILL BE THE DEFAULT BOOTSTRAP ONES */
+    border: 1px solid #0ECD99 !important;
+    border-bottom: 1px solid #7C67CB !important;
+    border-top: 1px solid #7C67CB !important;
+
+}
+
+.wrapper {
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    border: solid 5px #7C67CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #05668D;
+    background-color: #0ECD99; 
+    border-radius: 3%;  
+}
+
+@media only screen and (max-width: 500px) {
+    /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.btn {
+    background-color: #7C67CB;
+    color: #0ECD99;
+    /* THIS CENTERS THE SUBMIT BUTTON */
+    margin-left: 25%;
+}
+
