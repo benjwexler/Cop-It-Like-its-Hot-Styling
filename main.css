@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(61, 151, 187)
+    background-color: rgb(61, 151, 187);
+    /* font-family: 'Krub', sans-serif; */
 }
 
 .navbar {
@@ -70,5 +75,19 @@ body {
 
 #hamburgerMenu {
     background: white;
+}
+
+#topRightNavContainer {
+    border: 5px solid white;
+    border-radius: 3%;
+    /* background: white; */
+}
+
+/* 770px is for medium breakpoint */
+@media only screen and (max-width: 580px) {
+    #topRightNavContainer {
+        border: 0px;
+        border-radius: 100%;
+    }
 }
 

@@ -1,0 +1,43 @@
+#portfolioBalanceContainer {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+#portfolioBalanceText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+   
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+    
+   font-size: 50px;
+    width: 100%;
+    font-family: 'Krub', sans-serif;
+    /* height: 100%; */
+  }
+
+  #bostContainer {
+      height: auto;
+      width: auto;
+  }
+
+  @media only screen and (max-width: 520px) {
+    #portfolioBalanceText {
+        margin-left: 50px;
+        font-size: 40px;
+        /* text-align: center; */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #portfolioBalanceText {
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
