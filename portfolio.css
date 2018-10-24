@@ -24,6 +24,8 @@
   #bostContainer {
       height: auto;
       width: auto;
+      display: flex;
+      flex-direction: row;
   }
 
   @media only screen and (max-width: 520px) {
@@ -39,6 +41,9 @@
         margin-left: 0px;
         font-size: 30px;
         text-align: center;
+        /* width: auto; */
+        border-bottom: 1px solid #0ECD99;
+        border-top: 1px solid #0ECD99;
     }
 }
 
@@ -61,6 +66,7 @@
     height: 100%;
     border-right: 1px solid black;
     padding-left: 50px;
+    
     
 }
 #holdingsMainContainer {
@@ -151,4 +157,26 @@
     box-shadow: 2px 3px;
     background: rgba(14, 205, 154, 0.836);
     /* background: #0ECD99; */
+}
+
+@media only screen and (max-width: 500px) {
+    /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
+    #holdingsAndPurchaseContainer { 
+        flex-direction: column;
+       
+        /* display: inline; */
+    }
+    #makePurchaseOuterContainer {
+        width: 100%;
+        height: 350px;
+   
+       
+    }
+    #holdingsOuterContainer {
+        /* background: white; */
+        width: 100%;
+        order: 2;
+       
+        
+    }
 }
