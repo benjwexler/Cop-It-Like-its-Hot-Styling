@@ -140,18 +140,35 @@
 
 
 
-#purchaseForm {
+#getPriceForm {
     width: 100%;
     
 }
 
-#purchaseButton {
+#getPriceButton {
     width: 100%;
     border: 3px solid black;
     height: 40px;
     box-shadow: 2px 3px;
     background: rgba(14, 205, 154, 0.836);
     /* background: #0ECD99; */
+}
+#confirmPurchaseBtn {
+    width: 100%;
+    border: 3px solid black;
+    height: 40px;
+    box-shadow: 2px 3px;
+    background: rgba(14, 205, 154, 0.836);
+
+}
+
+#cancelPurchaseBtn {
+    width: 100%;
+    border: 3px solid black;
+    height: 40px;
+    box-shadow: 2px 3px;
+    background: rgba(206, 82, 24, 0.836);
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -170,8 +187,19 @@
     #holdingsOuterContainer {
         /* background: white; */
         width: 100%;
-        order: 2;
-       
-        
+        order: 2; 
     }
+}
+
+.stockQuote {
+    width: 100%;
+    border: 3px solid black;
+    box-shadow: 2px 3px ;
+    height: auto;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#confirmTradeContainer {
+    display: none;
 }
