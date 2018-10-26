@@ -171,7 +171,7 @@
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 720px) {
     /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
     #holdingsAndPurchaseContainer { 
         flex-direction: column;
